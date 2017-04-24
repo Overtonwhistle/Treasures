@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<treasures xmlns="http://epam.com/xml/dragon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://epam.com/xml/dragon Treasures.xsd">
+
+
+	<jewel id="11">
+		<type>Precious stone</type>
+		<material>Diamond</material>
+		<diameter>1.2</diameter>
+		<weight>0.015</weight>
+		<price>324.57</price>
+	</jewel>
+	<jewel id="12">
+		<type>Precious stone</type>
+		<material>Ruby</material>
+		<diameter>5.1</diameter>
+		<weight>0.051</weight>
+		<price>117</price>
+	</jewel>
+	
+	
+	
+	<ring id="21">
+		<material>Gold</material>
+		<weight>2.7</weight>
+		<style>Classic</style>
+		<hasPreciousStone>TRUE</hasPreciousStone>
+		<price>751</price>
+	</ring>
+	
+	
+	<jewel id="13">
+		<type>Halfprecious stone</type>
+		<material>Opal</material>
+		<diameter>35.4</diameter>
+		<weight>0.156</weight>
+		<price>257.3</price>
+	</jewel>
+
+	<ring id="21">
+		<material>Gold</material>
+		<weight>2.7</weight>
+		<style>Classic</style>
+		<hasPreciousStone>TRUE</hasPreciousStone>
+		<price>751</price>
+	</ring>
+	<ring id="22">
+		<material>Platinum</material>
+		<weight>6.1</weight>
+		<style>Vintage</style>
+		<hasPreciousStone>FALSE</hasPreciousStone>
+		<price>1024.33</price>
+	</ring>
+	<ring id="23">
+		<material>Silver</material>
+		<weight>5.34</weight>
+		<style>Vintage</style>
+		<hasPreciousStone>FALSE</hasPreciousStone>
+		<price>99.99</price>
+	</ring>
+
+	<bracelet id="31">
+		<material>Silver</material>
+		<weight>12.3</weight>
+		<style>Classic</style>
+		<girth>19.7</girth>
+		<hardness>Hard</hardness>
+		<price>230.69</price>
+	</bracelet>
+	<bracelet id="32">
+		<material>Gold</material>
+		<weight>13.1</weight>
+		<style>Vintage</style>
+		<girth>21.2</girth>
+		<hardness>Medium hardness</hardness>
+		<price>538.29</price>
+	</bracelet>
+	<bracelet id="33">
+		<material>Steel</material>
+		<weight>11.9</weight>
+		<style>Classic</style>
+		<girth>20.2</girth>
+		<hardness>Hard</hardness>
+		<price>214.99</price>
+	</bracelet>
+
+	<chain id="41">
+		<length>0.4</length>
+		<weight>0.02</weight>
+		<material>Gold</material>
+		<thickness>0.01</thickness>
+		<type_of_lock>Springring</type_of_lock>
+		<price>455</price>
+	</chain>
+	<chain id="42">
+		<length>0.35</length>
+		<weight>0.016</weight>
+		<material>Silver</material>
+		<thickness>0.01</thickness>
+		<type_of_lock>Lobster</type_of_lock>
+		<price>130</price>
+	</chain>
+	<chain id="43">
+		<length>0.45</length>
+		<weight>0.034</weight>
+		<material>Gold</material>
+		<thickness>0.014</thickness>
+		<type_of_lock>Barrel</type_of_lock>
+		<price>455</price>
+	</chain>
+
+	<sandglass id="51">
+		<material>Steel</material>
+		<sand_type>River sand</sand_type>
+		<weight>14</weight>
+		<price>128</price>
+	</sandglass>
+	<sandglass id="52">
+		<material>Gold</material>
+		<sand_type>River sand</sand_type>
+		<weight>15.5</weight>
+		<price>441</price>
+	</sandglass>
+	<sandglass id="53">
+		<material>Platinum</material>
+		<sand_type>Quarry sand</sand_type>
+		<weight>13</weight>
+		<price>389</price>
+	</sandglass>
+
+	<beads id="61">
+		<length>0.35</length>
+		<material>Amber</material>
+		<weight>0.052</weight>
+		<thickness>0.02</thickness>
+		<price>205</price>
+	</beads>
+	<beads id="62">
+		<length>0.55</length>
+		<material>Coral</material>
+		<weight>0.110</weight>
+		<thickness>0.03</thickness>
+		<price>336.6</price>
+	</beads>
+	<beads id="63">
+		<length>0.40</length>
+		<material>Emerald</material>
+		<weight>0.210</weight>
+		<thickness>0.03</thickness>
+		<price>984</price>
+	</beads>
+
+	<coulomb id="71">
+		<material>gold</material>
+		<size>3.5</size>
+		<weight>40</weight>
+		<form>square</form>
+		<has_picture>false</has_picture>
+		<price>140</price>
+	</coulomb>
+
+	<coulomb id="72">
+		<material>silver</material>
+		<size>5</size>
+		<weight>55</weight>
+		<form>round</form>
+		<has_picture>true</has_picture>
+		<price>75</price>
+	</coulomb>
+
+	<coulomb id="73">
+		<material>bronze</material>
+		<size>10</size>
+		<weight>40</weight>
+		<form>triangle</form>
+		<has_picture>true</has_picture>
+		<price>30</price>
+	</coulomb>
+
+
+
+
+
+	<cup id="81">
+		<amount>65</amount>
+		<material>gold</material>
+		<weight>150</weight>
+		<height>70</height>
+		<price>250</price>
+	</cup>
+	<cup id="82">
+		<amount>25</amount>
+		<material>silver</material>
+		<weight>70</weight>
+		<height>45</height>
+		<price>100</price>
+	</cup>
+	<cup id="83">
+		<amount>25</amount>
+		<material>bronze</material>
+		<weight>45</weight>
+		<height>55</height>
+		<price>85</price>
+	</cup>
+
+	<vase id="91">
+		<title>Olpe</title>
+		<type>Greec</type>
+		<amount>45</amount>
+		<has_picture>true</has_picture>
+		<price>152</price>
+	</vase>
+	<vase id="92">
+		<title>Han</title>
+		<type>Chinese</type>
+		<amount>41</amount>
+		<has_picture>false</has_picture>
+		<price>130</price>
+	</vase>
+	<vase id="93">
+		<title>Amphora</title>
+		<type>Greec</type>
+		<amount>55</amount>
+		<has_picture>true</has_picture>
+		<price>230</price>
+	</vase>
+
+
+
+
+	<statue id="101">
+		<title>The Thinker</title>
+		<weight>200</weight>
+		<size>4</size>
+		<type>French sculpture</type>
+		<date>1880</date>
+		<creator>Rodin</creator>
+		<price>891</price>
+	</statue>
+	<statue id="102">
+		<title>Venus de Milo</title>
+		<weight>100</weight>
+		<size>2</size>
+		<type>Greek sculpture</type>
+		<date>120 BCE</date>
+		<creator>Alexandros of Antioch</creator>
+		<price>390</price>
+	</statue>
+	<statue id="103">
+		<title>Moai</title>
+		<weight>12000</weight>
+		<size>4</size>
+		<type>Monolithic human figure</type>
+		<date>1400</date>
+		<creator>Polynesian colonizers</creator>
+		<price>2230</price>
+	</statue>
+
+	<pictute id="111">
+		<title>The Mona Lisa</title>
+		<type>Portrait</type>
+		<date>1519</date>
+		<creator>Leonardo da Vinci</creator>
+		<quality>Restored</quality>
+		<paint_type>Oil paints</paint_type>
+		<price>3233</price>
+	</pictute>
+	<pictute id="112">
+		<title>The Night Watch</title>
+		<type>Historical plot</type>
+		<date>1642</date>
+		<creator>Rembrandt</creator>
+		<quality>Good</quality>
+		<paint_type>Oil paints</paint_type>
+		<price>2700</price>
+	</pictute>
+	<pictute id="113">
+		<title>The Son of Man</title>
+		<type>Self-portrait</type>
+		<date>1964</date>
+		<creator>Rene Magritte</creator>
+		<quality>Very good</quality>
+		<paint_type>Oil paints</paint_type>
+		<price>1700</price>
+	</pictute>
+
+
+
+	<casket id="121">
+		<size>10</size>
+		<weight>1.2</weight>
+		<hasLock>TRUE</hasLock>
+		<price>25</price>
+	</casket>
+	<casket id="122">
+		<size>12</size>
+		<weight>1.8</weight>
+		<hasLock>FALSE</hasLock>
+		<price>20</price>
+	</casket>
+	<casket id="123">
+		<size>15</size>
+		<weight>2.5</weight>
+		<hasLock>TRUE</hasLock>
+		<price>35</price>
+	</casket>
+
+	<key id="131">
+		<size>3</size>
+		<type>English key</type>
+		<whatOpen>casket</whatOpen>
+		<price>10</price>
+	</key>
+	<key id="132">
+		<size>4</size>
+		<type>Socket wrench</type>
+		<whatOpen>door</whatOpen>
+		<price>12</price>
+	</key>
+	<key id="133">
+		<size>2</size>
+		<type>Perforated key</type>
+		<whatOpen>lock</whatOpen>
+		<price>15</price>
+	</key>
+
+
+	<sword id="141">
+		<title>Katana</title>
+		<material>Steel</material>
+		<weight>1.2</weight>
+		<length>0.7</length>
+		<type>Curved</type>
+		<blade_thickness>0.004</blade_thickness>
+		<damage>130</damage>
+		<price>212.4</price>
+	</sword>
+	<sword id="142">
+		<title>Jian</title>
+		<material>Steel</material>
+		<weight>1.1</weight>
+		<length>0.72</length>
+		<type>Straight</type>
+		<blade_thickness>0.003</blade_thickness>
+		<damage>110</damage>
+		<price>191.1</price>
+	</sword>
+	<sword id="143">
+		<title>Golok</title>
+		<material>Steel</material>
+		<weight>0.52</weight>
+		<length>0.32</length>
+		<type>Machete</type>
+		<blade_thickness>0.005</blade_thickness>
+		<damage>43</damage>
+		<price>98.5</price>
+	</sword>
+
+	<staff id="151">
+		<title>Bo</title>
+		<length>1.8</length>
+		<type>Battle_staff</type>
+		<tip_type>Wood</tip_type>
+		<damage>33</damage>
+		<price>166.7</price>
+	</staff>
+	<staff id="152">
+		<title>Jo</title>
+		<length>1.28</length>
+		<type>Battle_staff</type>
+		<tip_type>Wood</tip_type>
+		<damage>25</damage>
+		<price>111.5</price>
+	</staff>
+	<staff id="153">
+		<title>Kanabo</title>
+		<length>1.41</length>
+		<type>Battle_club</type>
+		<tip_type>Steel</tip_type>
+		<damage>41</damage>
+		<price>177.5</price>
+	</staff>
+
+	<mace id="161">
+		<title>plastic</title>
+		<type>simple</type>
+		<size>3</size>
+		<damage>30</damage>
+		<price>50</price>
+	</mace>
+	<mace id="162">
+		<title>soldier</title>
+		<type>trainer</type>
+		<size>5</size>
+		<damage>60</damage>
+		<price>500</price>
+	</mace>
+	<mace id="163">
+		<title>battle</title>
+		<type>complex</type>
+		<size>7</size>
+		<damage>60</damage>
+		<price>400</price>
+	</mace>
+
+	<axe id="171">
+		<title>powerful</title>
+		<type>warrior</type>
+		<type_handle>single</type_handle>
+		<type_blade>double</type_blade>
+		<damage>70</damage>
+		<price>1000</price>
+	</axe>
+	<axe id="172">
+		<title>firewood</title>
+		<type>simple</type>
+		<type_handle>double</type_handle>
+		<type_blade>single</type_blade>
+		<damage>60</damage>
+		<price>800</price>
+	</axe>
+	<axe id="173">
+		<title>battle</title>
+		<type_handle>soldier</type_handle>
+		<type_blade>single</type_blade>
+		<damage>20</damage>
+		<price>300</price>
+	</axe>
+
+	<bow id="181">
+		<title>English bow</title>
+		<type>Long bow</type>
+		<size>0.75</size>
+		<arrow_type>traditional</arrow_type>
+		<arrow_count>30</arrow_count>
+		<damage>15</damage>
+		<price>500</price>
+	</bow>
+	<bow id="182">
+		<title>Russian bow</title>
+		<type>Short bow</type>
+		<size>0.4</size>
+		<arrow_type>modern</arrow_type>
+		<arrow_count>50</arrow_count>
+		<damage>10</damage>
+		<price>450</price>
+	</bow>
+	<bow id="183">
+		<title>German bow</title>
+		<type>Composite bow</type>
+		<size>0.7</size>
+		<arrow_type>long</arrow_type>
+		<arrow_count>20</arrow_count>
+		<damage>20</damage>
+		<price>800</price>
+	</bow>
+
+
+	<helmet id="191">
+		<title>Attic</title>
+		<type>ancient helmet</type>
+		<material>steel</material>
+		<head_protection>50</head_protection>
+		<head_circumference>40</head_circumference>
+		<price>500</price>
+	</helmet>
+	<helmet id="192">
+		<title>M1</title>
+		<type>world war helmet</type>
+		<material>steel</material>
+		<head_protection>100</head_protection>
+		<head_circumference>42</head_circumference>
+		<price>200</price>
+	</helmet>
+	<helmet id="193">
+		<title>Bell</title>
+		<type>bike helmet</type>
+		<material>polyurethane</material>
+		<head_protection>20</head_protection>
+		<head_circumference>38</head_circumference>
+		<price>100</price>
+	</helmet>
+
+	<spaulders id="201">
+		<title>Kasten-brust spaulders</title>
+		<material>metal</material>
+		<type>ancient</type>
+		<shoulderGirth>140</shoulderGirth>
+		<body_protection>50</body_protection>
+		<price>90</price>
+	</spaulders>
+	<spaulders id="202">
+		<title>Gothic spaulders</title>
+		<material>metal</material>
+		<type>ancient</type>
+		<shoulderGirth>150</shoulderGirth>
+		<body_protection>60</body_protection>
+		<price>80</price>
+	</spaulders>
+	<spaulders id="203">
+		<title>Deltoid Axillary Protector</title>
+		<material>kevlar</material>
+		<type>modern</type>
+		<shoulderGirth>120</shoulderGirth>
+		<body_protection>80</body_protection>
+		<price>40</price>
+	</spaulders>
+
+	<armor id="211">
+		<title>Gothic armor</title>
+		<material>steel</material>
+		<type>ancient</type>
+		<body_protection>160</body_protection>
+		<body_girth>100</body_girth>
+		<has_picture>true</has_picture>
+		<price>130</price>
+	</armor>
+	<armor id="212">
+		<title>Rome armor</title>
+		<material>bronze</material>
+		<type>ancient</type>
+		<body_protection>140</body_protection>
+		<body_girth>110</body_girth>
+		<has_picture>false</has_picture>
+		<price>160</price>
+	</armor>
+	<armor id="213">
+		<title>Gallic armor</title>
+		<material>Iron</material>
+		<type>ancient</type>
+		<body_protection>140</body_protection>
+		<body_girth>97</body_girth>
+		<has_picture>true</has_picture>
+		<price>120</price>
+	</armor>
+
+	<trousers id="221">
+		<title>Battletrousers</title>
+		<material>steel</material>
+		<type>BATTLE</type>
+		<leg_protection>100</leg_protection>
+		<waist_girth>80</waist_girth>
+		<price>313.4</price>
+	</trousers>
+	<trousers id="222">
+		<title>Persiantrousers</title>
+		<material>textile</material>
+		<type>BLOOMERS</type>
+		<leg_protection>120</leg_protection>
+		<waist_girth>90</waist_girth>
+		<price>20.4</price>
+	</trousers>
+	<trousers id="223">
+		<title>Warmtrousers</title>
+		<material>fur</material>
+		<type>WARM</type>
+		<leg_protection>60</leg_protection>
+		<waist_girth>85</waist_girth>
+		<price>200.3</price>
+	</trousers>
+
+	<boots id="231">
+		<title>Battleboots</title>
+		<material>steel</material>
+		<type>BATTLE</type>
+		<leg_protection>40</leg_protection>
+		<foot_girth>42</foot_girth>
+		<price>100.7</price>
+	</boots>
+	<boots id="232">
+		<title>Egyptstyle</title>
+		<material>leather</material>
+		<type>SANDALS</type>
+		<leg_protection>50</leg_protection>
+		<foot_girth>43</foot_girth>
+		<price>21.5</price>
+	</boots>
+	<boots id="233">
+		<title>Walkshoes</title>
+		<material>wood</material>
+		<type>LOWSHOES</type>
+		<leg_protection>30</leg_protection>
+		<foot_girth>44</foot_girth>
+		<price>30.4</price>
+	</boots>
+
+
+
+
+	<ancient_book id="241">
+		<title>Lords of Earth</title>
+		<age>245</age>
+		<type>Very very old</type>
+		<pages>215</pages>
+		<lanquage>en-GB</lanquage>
+		<price>12</price>
+	</ancient_book>
+	<ancient_book id="242">
+		<title>Georgia staff</title>
+		<age>105</age>
+		<type>Very old</type>
+		<pages>235</pages>
+		<lanquage>en-GB</lanquage>
+		<price>15</price>
+	</ancient_book>
+	<ancient_book id="243">
+		<title>Dragon fire</title>
+		<age>100</age>
+		<type>Very old</type>
+		<pages>235</pages>
+		<lanquage>en-US</lanquage>
+		<price>16</price>
+	</ancient_book>
+
+	<ancient_scroll id="251">
+		<title>Golden fix</title>
+		<age>23</age>
+		<content>The basic rules to get the money and gold</content>
+		<school_of_magic>Fire magic school</school_of_magic>
+		<price>12</price>
+	</ancient_scroll>
+	<ancient_scroll id="252">
+		<title>Basic rules</title>
+		<age>23</age>
+		<content>One of the best scroll</content>
+		<school_of_magic>Water magic school</school_of_magic>
+		<price>18</price>
+	</ancient_scroll>
+	<ancient_scroll id="253">
+		<title>Scroll of magic things</title>
+		<age>96</age>
+		<content>You have to read this scroll because of some interesting
+					things</content>
+		<school_of_magic>Water magic school</school_of_magic>
+		<price>28</price>
+	</ancient_scroll>
+
+
+	<magicstone id="261">
+		<title>tourmaline</title>
+		<type>green</type>
+		<age>256</age>
+		<magicwords>abrakadabra</magicwords>
+		<translation>Let there be light</translation>
+		<price>59.56</price>
+	</magicstone>
+	<magicstone id="262">
+		<title>tourmaline</title>
+		<type>black</type>
+		<age>320</age>
+		<magicwords>huhrymuhry</magicwords>
+		<translation>Let power be with you</translation>
+		<price>120.54</price>
+	</magicstone>
+	<magicstone id="263">
+		<title>tourmaline</title>
+		<type>blue</type>
+		<age>178</age>
+		<magicwords>huhrymuhry</magicwords>
+		<translation>Don't worry, be happy</translation>
+		<price>67.98</price>
+	</magicstone>
+
+	<runicstone id="271">
+		<title>fehu</title>
+		<type>Elder Futhark</type>
+		<amountrune>1</amountrune>
+		<engravedrune>fehu</engravedrune>
+		<translation>wealth</translation>
+		<price>4.56</price>
+	</runicstone>
+	<runicstone id="272">
+		<title>antifire</title>
+		<type>Elder Futhark</type>
+		<amountrune>3</amountrune>
+		<engravedrune>fehu</engravedrune>
+		<engravedrune>raido</engravedrune>
+		<engravedrune>laguz</engravedrune>
+		<translation>fire protection</translation>
+		<price>10.05</price>
+	</runicstone>
+	<runicstone id="273">
+		<title>plantain</title>
+		<type>Elder Futhark</type>
+		<amountrune>3</amountrune>
+		<engravedrune>raido</engravedrune>
+		<engravedrune>eiwaz</engravedrune>
+		<engravedrune>laguz</engravedrune>
+		<translation>travel protection</translation>
+		<price>11.8</price>
+	</runicstone>
+	<runicstone id="274">
+		<title>gift</title>
+		<type>Elder Futhark</type>
+		<amountrune>1</amountrune>
+		<engravedrune>gebo</engravedrune>
+		<translation>Gebo represents the honor and connection that is
+					created
+					between people when they exchange gifts. The connection and
+					honor is
+					similar to the connection and honor that a person has with
+					the gods
+					for giving them life.
+				</translation>
+		<price>3.45</price>
+	</runicstone>
+
+
+	<ancientfossil id="281">
+		<name>ammonite</name>
+		<age>4000000</age>
+		<accessory>squids</accessory>
+		<price>300</price>
+	</ancientfossil>
+	<ancientfossil id="282">
+		<name>trilobite</name>
+		<age>45000000</age>
+		<accessory>trilobite</accessory>
+		<price>300</price>
+	</ancientfossil>
+	<ancientfossil id="283">
+		<name>belemnite</name>
+		<age>54000000</age>
+		<accessory>squids</accessory>
+		<price>450</price>
+	</ancientfossil>
+
+	<dragonsegg id="291">
+		<size>150</size>
+		<dragonskind>almerald</dragonskind>
+		<price>500</price>
+	</dragonsegg>
+	<dragonsegg id="292">
+		<size>160</size>
+		<dragonskind>royal</dragonskind>
+		<price>1000</price>
+	</dragonsegg>
+	<dragonsegg id="293">
+		<size>170</size>
+		<dragonskind>magic</dragonskind>
+		<price>600</price>
+	</dragonsegg>
+
+	<ancientfabric id="301">
+		<title>Golden Fleece</title>
+		<type>animal</type>
+		<size>4</size>
+		<material>gold</material>
+		<has_ornament>false</has_ornament>
+		<ornament_type></ornament_type>
+		<price>1900</price>
+	</ancientfabric>
+	<ancientfabric id="302">
+		<title>Invisibility Сloak</title>
+		<type>plant</type>
+		<size>3</size>
+		<material>silverfabric</material>
+		<has_ornament>true</has_ornament>
+		<ornament_type>surface</ornament_type>
+		<price>2700</price>
+	</ancientfabric>
+	<ancientfabric id="303">
+		<title>Cloak of Levitation</title>
+		<type>animal</type>
+		<size>3</size>
+		<material>scarletfabric</material>
+		<has_ornament>false</has_ornament>
+		<ornament_type></ornament_type>
+		<price>2250</price>
+	</ancientfabric>
+
+	<aroma id="311">
+		<title>Sandalwood</title>
+		<type>Relax</type>
+		<amount>1000</amount>
+		<price>350.00</price>
+	</aroma>
+	<aroma id="312">
+		<title>Patchouli</title>
+		<type>Stimulate</type>
+		<amount>1000</amount>
+		<price>360.00</price>
+	</aroma>
+	<aroma id="313">
+		<title>Cinnamon</title>
+		<type>Warm</type>
+		<amount>800</amount>
+		<price>320.00</price>
+	</aroma>
+
+	<princess id="321">
+		<name>Fa Mulan</name>
+		<age>18</age>
+		<has_damnation>false</has_damnation>
+		<birthplace>China</birthplace>
+	</princess>
+	<princess id="322">
+		<name>Aurora</name>
+		<age>16</age>
+		<has_damnation>true</has_damnation>
+		<birthplace>France</birthplace>
+	</princess>
+	<princess id="323">
+		<name>Fiona</name>
+		<age>16</age>
+		<has_damnation>true</has_damnation>
+		<birthplace>Faraway Kingdom</birthplace>
+	</princess>
+
+</treasures>

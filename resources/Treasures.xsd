@@ -1,0 +1,464 @@
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified" targetNamespace="http://epam.com/xml/dragon"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="treasures">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded" minOccurs="0">
+				<xs:element name="jewel" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:float" name="diameter" />
+							<xs:element type="xs:float" name="weight" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="ring" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:float" name="weight" />
+							<xs:element type="xs:string" name="style" />
+							<xs:element type="xs:string" name="hasPreciousStone" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="bracelet" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:float" name="weight" />
+							<xs:element type="xs:string" name="style" />
+							<xs:element type="xs:float" name="girth" />
+							<xs:element type="xs:string" name="hardness" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="chain" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:float" name="length" />
+							<xs:element type="xs:float" name="weight" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:float" name="thickness" />
+							<xs:element type="xs:string" name="type_of_lock" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="sandglass" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:string" name="sand_type" />
+							<xs:element type="xs:float" name="weight" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="beads" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:float" name="length" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:float" name="weight" />
+							<xs:element type="xs:float" name="thickness" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="coulomb" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:float" name="size" />
+							<xs:element type="xs:byte" name="weight" />
+							<xs:element type="xs:string" name="form" />
+							<xs:element type="xs:boolean" name="has_picture" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="cup" maxOccurs="unbounded" minOccurs="0">
+					<xs:annotation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:byte" name="amount" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:unsignedShort" name="weight" />
+							<xs:element type="xs:byte" name="height" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="vase" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:byte" name="amount" />
+							<xs:element type="xs:boolean" name="has_picture" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="statue" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:annotation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:unsignedShort" name="weight" />
+							<xs:element type="xs:byte" name="size" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:string" name="date" />
+							<xs:element type="xs:string" name="creator" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="pictute" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:unsignedShort" name="date" />
+							<xs:element type="xs:string" name="creator" />
+							<xs:element type="xs:string" name="quality" />
+							<xs:element type="xs:string" name="paint_type" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="casket" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:byte" name="size" />
+							<xs:element type="xs:float" name="weight" />
+							<xs:element type="xs:string" name="hasLock" />
+							<xs:element type="xs:byte" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="key" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:byte" name="size" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:string" name="whatOpen" />
+							<xs:element type="xs:byte" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="sword" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:float" name="weight" />
+							<xs:element type="xs:float" name="length" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:float" name="blade_thickness" />
+							<xs:element type="xs:unsignedShort" name="damage" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="staff" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:float" name="length" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:string" name="tip_type" />
+							<xs:element type="xs:byte" name="damage" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="mace" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:byte" name="size" />
+							<xs:element type="xs:byte" name="damage" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="axe" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="type" minOccurs="0" />
+							<xs:element type="xs:string" name="type_handle" />
+							<xs:element type="xs:string" name="type_blade" />
+							<xs:element type="xs:byte" name="damage" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="bow" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:float" name="size" />
+							<xs:element type="xs:string" name="arrow_type" />
+							<xs:element type="xs:byte" name="arrow_count" />
+							<xs:element type="xs:byte" name="damage" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="helmet" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:byte" name="head_protection" />
+							<xs:element type="xs:byte" name="head_circumference" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="spaulders" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:unsignedShort" name="shoulderGirth" />
+							<xs:element type="xs:byte" name="body_protection" />
+							<xs:element type="xs:byte" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="armor" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:unsignedShort" name="body_protection" />
+							<xs:element type="xs:byte" name="body_girth" />
+							<xs:element type="xs:boolean" name="has_picture" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="trousers" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:byte" name="leg_protection" />
+							<xs:element type="xs:byte" name="waist_girth" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="boots" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:byte" name="leg_protection" />
+							<xs:element type="xs:byte" name="foot_girth" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="ancient_book" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:unsignedShort" name="age" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:unsignedShort" name="pages" />
+							<xs:element type="xs:string" name="lanquage" />
+							<xs:element type="xs:byte" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="ancient_scroll" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:unsignedShort" name="age" />
+							<xs:element type="xs:string" name="content" />
+							<xs:element type="xs:string" name="school_of_magic" />
+							<xs:element type="xs:byte" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="magicstone" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:unsignedShort" name="age" />
+							<xs:element type="xs:string" name="magicwords" />
+							<xs:element type="xs:string" name="translation" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="runicstone" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:byte" name="amountrune" />
+							<xs:element type="xs:string" name="engravedrune"
+								maxOccurs="unbounded" minOccurs="0" />
+							<xs:element type="xs:string" name="translation" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="ancientfossil" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="name" />
+							<xs:element type="xs:int" name="age" />
+							<xs:element type="xs:string" name="accessory" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="dragonsegg" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:unsignedShort" name="size" />
+							<xs:element type="xs:string" name="dragonskind" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="ancientfabric" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:byte" name="size" />
+							<xs:element type="xs:string" name="material" />
+							<xs:element type="xs:boolean" name="has_ornament" />
+							<xs:element type="xs:string" name="ornament_type" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="aroma" maxOccurs="unbounded" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="title" />
+							<xs:element type="xs:string" name="type" />
+							<xs:element type="xs:unsignedShort" name="amount" />
+							<xs:element type="xs:decimal" name="price" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+				
+				<xs:element name="princess" maxOccurs="unbounded"
+					minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="name" />
+							<xs:element type="xs:unsignedShort" name="age" />
+							<xs:element type="xs:boolean" name="has_damnation" />
+							<xs:element type="xs:string" name="birthplace" />
+						</xs:sequence>
+						<xs:attribute type="xs:unsignedShort" name="id" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

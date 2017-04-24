@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 17.04.2017 for builder -->
+<treasures xmlns="http://epam.com/xml/dragon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://epam.com/xml/dragon Treasures.xsd">
+
+
+	<!-- JEWERLY -->
+	<jewel id="11">
+		<type>Precious stone</type>
+		<material>Diamond</material>
+		<diameter>1.2</diameter>
+		<weight>0.015</weight>
+		<price>324.57</price>
+	</jewel>
+	<jewel id="12">
+		<type>Precious stone</type>
+		<material>Ruby</material>
+		<diameter>5.1</diameter>
+		<weight>0.051</weight>
+		<price>117</price>
+	</jewel>
+	<jewel id="13">
+		<type>Halfprecious stone</type>
+		<material>Opal</material>
+		<diameter>35.4</diameter>
+		<weight>0.156</weight>
+		<price>257.3</price>
+	</jewel>
+
+	<ring id="21">
+		<material>Gold</material>
+		<weight>2.7</weight>
+		<style>Classic</style>
+		<hasPreciousStone>false</hasPreciousStone>
+		<price>751</price>
+	</ring>
+	<ring id="22">
+		<material>Platinum</material>
+		<weight>6.1</weight>
+		<style>Vintage</style>
+		<hasPreciousStone>false</hasPreciousStone>
+		<price>1024.33</price>
+	</ring>
+	<ring id="23">
+		<material>Silver</material>
+		<weight>5.34</weight>
+		<style>Vintage</style>
+		<hasPreciousStone>false</hasPreciousStone>
+		<price>99.99</price>
+	</ring>
+
+	<bracelet id="31">
+		<material>Silver</material>
+		<weight>12.3</weight>
+		<style>Classic</style>
+		<girth>19.7</girth>
+		<hardness>Hard</hardness>
+		<price>230.69</price>
+	</bracelet>
+	<bracelet id="32">
+		<material>Gold</material>
+		<weight>13.1</weight>
+		<style>Vintage</style>
+		<girth>21.2</girth>
+		<hardness>Medium hardness</hardness>
+		<price>538.29</price>
+	</bracelet>
+	<bracelet id="33">
+		<material>Steel</material>
+		<weight>11.9</weight>
+		<style>Classic</style>
+		<girth>20.2</girth>
+		<hardness>Hard</hardness>
+		<price>214.99</price>
+	</bracelet>
+
+	<chain id="41">
+		<length>0.4</length>
+		<weight>0.02</weight>
+		<material>Gold</material>
+		<thickness>0.01</thickness>
+		<type_of_lock>Springring</type_of_lock>
+		<price>455</price>
+	</chain>
+	<chain id="42">
+		<length>0.35</length>
+		<weight>0.016</weight>
+		<material>Silver</material>
+		<thickness>0.01</thickness>
+		<type_of_lock>Lobster</type_of_lock>
+		<price>130</price>
+	</chain>
+	<chain id="43">
+		<length>0.45</length>
+		<weight>0.034</weight>
+		<material>Gold</material>
+		<thickness>0.014</thickness>
+		<type_of_lock>Barrel</type_of_lock>
+		<price>455</price>
+	</chain>
+
+	<sandglass id="51">
+		<material>Steel</material>
+		<sand_type>River sand</sand_type>
+		<weight>14</weight>
+		<price>128</price>
+	</sandglass>
+	<sandglass id="52">
+		<material>Gold</material>
+		<sand_type>River sand</sand_type>
+		<weight>15.5</weight>
+		<price>441</price>
+	</sandglass>
+	<sandglass id="53">
+		<material>Platinum</material>
+		<sand_type>Quarry sand</sand_type>
+		<weight>13</weight>
+		<price>389</price>
+	</sandglass>
+
+	<beads id="61">
+		<length>0.35</length>
+		<material>Amber</material>
+		<weight>0.052</weight>
+		<thickness>0.02</thickness>
+		<price>205</price>
+	</beads>
+	<beads id="62">
+		<length>0.55</length>
+		<material>Coral</material>
+		<weight>0.110</weight>
+		<thickness>0.03</thickness>
+		<price>336.6</price>
+	</beads>
+	<beads id="63">
+		<length>0.40</length>
+		<material>Emerald</material>
+		<weight>0.210</weight>
+		<thickness>0.03</thickness>
+		<price>984</price>
+	</beads>
+
+	<coulomb id="71">
+		<material>gold</material>
+		<size>3.5</size>
+		<weight>40</weight>
+		<form>square</form>
+		<has_picture>false</has_picture>
+		<price>140</price>
+	</coulomb>
+
+	<coulomb id="72">
+		<material>silver</material>
+		<size>5</size>
+		<weight>55</weight>
+		<form>round</form>
+		<has_picture>true</has_picture>
+		<price>75</price>
+	</coulomb>
+
+	<coulomb id="73">
+		<material>bronze</material>
+		<size>10</size>
+		<weight>40</weight>
+		<form>triangle</form>
+		<has_picture>true</has_picture>
+		<price>30</price>
+	</coulomb>
+
+
+</treasures>

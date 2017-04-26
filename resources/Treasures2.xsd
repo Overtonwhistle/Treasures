@@ -14,9 +14,10 @@
 							<xs:element type="xs:float" name="weight" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:byte" name="id" use="optional" />
+						<xs:attribute type="xs:byte" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="ring" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -26,9 +27,10 @@
 							<xs:element type="xs:string" name="hasPreciousStone" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:byte" name="id" use="optional" />
+						<xs:attribute type="xs:byte" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="bracelet" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -40,9 +42,10 @@
 							<xs:element type="xs:string" name="hardness" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:byte" name="id" use="optional" />
+						<xs:attribute type="xs:byte" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="chain" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -53,9 +56,10 @@
 							<xs:element type="xs:string" name="type_of_lock" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:byte" name="id" use="optional" />
+						<xs:attribute type="xs:byte" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="sandglass" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -65,9 +69,10 @@
 							<xs:element type="xs:float" name="weight" />
 							<xs:element type="xs:short" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:byte" name="id" use="optional" />
+						<xs:attribute type="xs:byte" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="beads" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -77,9 +82,10 @@
 							<xs:element type="xs:float" name="thickness" />
 							<xs:element type="xs:short" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:byte" name="id" use="optional" />
+						<xs:attribute type="xs:byte" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="coulomb" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -91,9 +97,10 @@
 							<xs:element type="xs:string" name="picture" />
 							<xs:element type="xs:short" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:byte" name="id" use="optional" />
+						<xs:attribute type="xs:byte" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="cup" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -103,9 +110,10 @@
 							<xs:element type="xs:byte" name="height" />
 							<xs:element type="xs:short" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:byte" name="id" use="optional" />
+						<xs:attribute type="xs:byte" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="casket" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -115,9 +123,10 @@
 							<xs:element type="xs:string" name="hasLock" />
 							<xs:element type="xs:byte" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:byte" name="id" use="optional" />
+						<xs:attribute type="xs:byte" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="key" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -126,9 +135,10 @@
 							<xs:element type="xs:string" name="whatOpen" />
 							<xs:element type="xs:byte" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="sword" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -141,9 +151,10 @@
 							<xs:element type="xs:short" name="damage" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="staff" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -153,9 +164,10 @@
 							<xs:element type="xs:string" name="tip_type" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="mace" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -165,9 +177,10 @@
 							<xs:element type="xs:byte" name="damage" />
 							<xs:element type="xs:short" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="axe" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -178,9 +191,10 @@
 							<xs:element type="xs:byte" name="damage" />
 							<xs:element type="xs:short" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="bow" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -192,9 +206,10 @@
 							<xs:element type="xs:byte" name="damage" />
 							<xs:element type="xs:short" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="helmet" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -206,9 +221,10 @@
 							<xs:element type="xs:byte" name="head_circumference" />
 							<xs:element type="xs:short" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="trousers" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -220,9 +236,10 @@
 							<xs:element type="xs:string" name="leg_girth" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="boots" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -233,9 +250,10 @@
 							<xs:element type="xs:string" name="leg_girth" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="ancient_book" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -247,9 +265,10 @@
 							<xs:element type="xs:string" name="lanquage" />
 							<xs:element type="xs:byte" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="ancient_scroll" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -260,9 +279,10 @@
 							<xs:element type="xs:string" name="school_of_magic" />
 							<xs:element type="xs:byte" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="magicstone" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -274,9 +294,10 @@
 							<xs:element type="xs:string" name="translation" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="runicstone" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -289,9 +310,10 @@
 							<xs:element type="xs:string" name="translation" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="ancientfossil" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -301,9 +323,10 @@
 							<xs:element type="xs:string" name="accessory" />
 							<xs:element type="xs:short" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="dragonsegg" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -312,9 +335,10 @@
 							<xs:element type="xs:string" name="dragonskind" />
 							<xs:element type="xs:short" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="aroma" maxOccurs="unbounded" minOccurs="0">
 					<xs:complexType>
 						<xs:sequence>
@@ -323,9 +347,10 @@
 							<xs:element type="xs:short" name="count" />
 							<xs:element type="xs:float" name="price" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
+				
 				<xs:element name="princess" maxOccurs="unbounded"
 					minOccurs="0">
 					<xs:complexType>
@@ -335,7 +360,7 @@
 							<xs:element type="xs:string" name="damnation" />
 							<xs:element type="xs:string" name="birthplace" />
 						</xs:sequence>
-						<xs:attribute type="xs:short" name="id" use="optional" />
+						<xs:attribute type="xs:short" name="id" use="required" />
 					</xs:complexType>
 				</xs:element>
 			</xs:sequence>

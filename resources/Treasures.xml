@@ -3,8 +3,6 @@
 <treasures xmlns="http://epam.com/xml/dragon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://epam.com/xml/dragon Treasures.xsd">
 
-
-	<!-- JEWERLY -->
 	<jewel id="11">
 		<type>Precious stone</type>
 		<material>Diamond</material>

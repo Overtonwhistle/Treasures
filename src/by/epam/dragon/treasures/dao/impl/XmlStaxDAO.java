@@ -8,7 +8,7 @@ import javax.xml.stream.XMLStreamException;
 import by.epam.dragon.treasures.bean.Treasure;
 import by.epam.dragon.treasures.dao.TreasureDAO;
 import by.epam.dragon.treasures.dao.exception.DAOException;
-import by.epam.dragon.treasures.parsers.stax.TreasuresStaxParser;
+import by.epam.dragon.treasures.dao.parsers.stax.TreasuresStaxParser;
 
 public class XmlStaxDAO implements TreasureDAO {
 

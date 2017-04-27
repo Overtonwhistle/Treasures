@@ -7,8 +7,8 @@ import org.xml.sax.SAXException;
 import by.epam.dragon.treasures.bean.Treasure;
 import by.epam.dragon.treasures.dao.TreasureDAO;
 import by.epam.dragon.treasures.dao.exception.DAOException;
-import by.epam.dragon.treasures.parsers.dom.TreasuresDomParser;
-import by.epam.dragon.treasures.parsers.validate.TreasuresXmlValidation;
+import by.epam.dragon.treasures.dao.parsers.dom.TreasuresDomParser;
+import by.epam.dragon.treasures.dao.parsers.validate.TreasuresXmlValidation;
 
 
 public class XmlDomDAO implements TreasureDAO {

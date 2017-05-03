@@ -3,11 +3,16 @@ package by.epam.dragon.treasures.bean.jewerly;
 import by.epam.dragon.treasures.bean.Jewerly;
 
 public class Chain extends Jewerly {
+	private static final long serialVersionUID = 1L;
 
 	private double length;
 	private double thickness;
 	private String typeOfLock;
 
+	public Chain() {
+		super();
+	}
+	
 	public double getLength() {
 		return length;
 
@@ -69,6 +74,7 @@ public class Chain extends Jewerly {
 
 	@Override
 	public String toString() {
-		return super.toString() + " Chain: [length=" + length + ", thickness=" + thickness + ", typeOfLock=" + typeOfLock + "]";
+		return super.toString() + " Chain: [length=" + length + ", thickness=" + thickness + ", typeOfLock="
+				+ typeOfLock + "]";
 	}
 }

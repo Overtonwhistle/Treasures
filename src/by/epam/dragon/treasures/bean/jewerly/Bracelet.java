@@ -3,11 +3,15 @@ package by.epam.dragon.treasures.bean.jewerly;
 import by.epam.dragon.treasures.bean.Jewerly;
 
 public class Bracelet extends Jewerly {
-
+	private static final long serialVersionUID = 1L; 
+	
 	private double girth;
 	private String style;
 	private String hardness;
 
+	public Bracelet() {
+		super();
+	}
 	public String getStyle() {
 		return style;
 	}

@@ -3,7 +3,8 @@ package by.epam.dragon.treasures.bean.jewerly;
 import by.epam.dragon.treasures.bean.Jewerly;
 
 public class Jewel extends Jewerly {
-
+	private static final long serialVersionUID = 1L;
+	
 	private String type;
 	private Double diameter;
 

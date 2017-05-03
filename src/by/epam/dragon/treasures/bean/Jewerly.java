@@ -1,7 +1,8 @@
 package by.epam.dragon.treasures.bean;
 
 public abstract class Jewerly extends Treasure {
-
+	private static final long serialVersionUID = 1L;
+	
 	private String material;
 	private double weight;
 

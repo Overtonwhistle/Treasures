@@ -3,10 +3,15 @@ package by.epam.dragon.treasures.bean.jewerly;
 import by.epam.dragon.treasures.bean.Jewerly;
 
 public class Ring extends Jewerly {
+	private static final long serialVersionUID = 1L;
 
 	private String style;
 	private boolean hasPreciousStone;
 
+	public Ring() {
+		super();
+	}
+	
 	public String getStyle() {
 		return style;
 	}
@@ -53,6 +58,6 @@ public class Ring extends Jewerly {
 
 	@Override
 	public String toString() {
-		return super.toString()+" Ring: [style=" + style + ", hasPreciousStone=" + hasPreciousStone + "]";
+		return super.toString() + " Ring: [style=" + style + ", hasPreciousStone=" + hasPreciousStone + "]";
 	}
 }

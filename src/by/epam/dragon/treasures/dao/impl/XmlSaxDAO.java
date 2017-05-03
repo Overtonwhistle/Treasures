@@ -11,7 +11,7 @@ import org.xml.sax.helpers.XMLReaderFactory;
 import by.epam.dragon.treasures.bean.Treasure;
 import by.epam.dragon.treasures.dao.TreasureDAO;
 import by.epam.dragon.treasures.dao.exception.DAOException;
-import by.epam.dragon.treasures.dao.parsers.sax.TreasuresSaxHandler;
+import by.epam.dragon.treasures.dao.parser.sax.TreasuresSaxHandler;
 
 public class XmlSaxDAO implements TreasureDAO {
 	

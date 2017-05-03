@@ -8,8 +8,8 @@ public final class DAOFactory {
 
 	private static final DAOFactory instance = new DAOFactory();
 
-//	private final TreasureDAO TreasureDAOImpl = new XmlSaxDAO();
-	private final TreasureDAO TreasureDAOImpl = new XmlDomDAO();
+	private final TreasureDAO TreasureDAOImpl = new XmlSaxDAO();
+//	private final TreasureDAO TreasureDAOImpl = new XmlDomDAO();
 //	private final TreasureDAO TreasureDAOImpl = new XmlStaxDAO();
 
 	private DAOFactory() {

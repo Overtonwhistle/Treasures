@@ -1,6 +1,10 @@
 package by.epam.dragon.treasures.bean;
 
-public abstract class Treasure {
+import java.io.Serializable;
+
+public abstract class Treasure implements Serializable {
+	private static final long serialVersionUID = 1L;
+
 	private int id;
 	private double price;
 

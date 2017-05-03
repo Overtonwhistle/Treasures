@@ -3,11 +3,16 @@ package by.epam.dragon.treasures.bean.jewerly;
 import by.epam.dragon.treasures.bean.Jewerly;
 
 public class Coulomb extends Jewerly {
-
+	private static final long serialVersionUID = 1L;
+	
 	private double size;
 	private String form;
 	private boolean hasPicture;
-
+	
+	public Coulomb() {
+		super();
+	}
+	
 	public double getSize() {
 		return size;
 	}

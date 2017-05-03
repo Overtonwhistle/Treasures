@@ -3,9 +3,14 @@ package by.epam.dragon.treasures.bean.jewerly;
 import by.epam.dragon.treasures.bean.Jewerly;
 
 public class Sandglass extends Jewerly {
+	private static final long serialVersionUID = 1L;
 
 	private String sandType;
 
+	public Sandglass() {
+		super();
+	}
+	
 	public String getSandType() {
 		return sandType;
 	}

@@ -9,26 +9,23 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 import by.epam.dragon.treasures.bean.Treasure;
-import by.epam.dragon.treasures.dao.TreasureDAO;
+import by.epam.dragon.treasures.dao.config_loader.PropertiesLoader;
 import by.epam.dragon.treasures.dao.exception.DAOException;
 import by.epam.dragon.treasures.dao.parser.sax.TreasuresSaxHandler;
 
-public class XmlSaxDAO implements TreasureDAO {
-	
-//	private static final String TREASURE_XMLFILE_PATH = "resources/Treasures.xml";
+public class XmlSaxDAO {
 
-	@Override
-	public List<Treasure> getAllTreasuresList() throws DAOException {
+	public static List<Treasure> getAllTreasuresList() throws DAOException {
 
 		TreasuresSaxHandler handler = new TreasuresSaxHandler();
 
 		try {
 			XMLReader reader = XMLReaderFactory.createXMLReader();
 			reader.setContentHandler(handler);
-			reader.parse(new InputSource(TREASURE_XMLFILE_PATH));
+			reader.parse(new InputSource(PropertiesLoader.TREASURE_XMLFILE_PATH));
 		} catch (IOException | SAXException e) {
 			e.printStackTrace();
-			throw new DAOException("DAO exception from SAX 'getAllTreasuresList()'");
+			throw new DAOException("DAO exception from XmlSaxDAO 'getAllTreasuresList()'");
 		}
 
 		return handler.getTreasuresList();

@@ -7,14 +7,6 @@ import by.epam.dragon.treasures.dao.exception.DAOException;
 
 public interface TreasureDAO {
 
-	public static final String TREASURE_XMLFILE_PATH = "resources/Treasures.xml";
-	public static final String TREASURE_XMLVALIDATION_PATH = "resources/Treasures.xsd";
-
-	// ???????????????????
 	List<Treasure> getAllTreasuresList() throws DAOException;
-
-	
-	
-	
 
 }

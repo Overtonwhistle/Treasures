@@ -6,19 +6,16 @@ import java.util.List;
 import javax.xml.stream.XMLStreamException;
 
 import by.epam.dragon.treasures.bean.Treasure;
-import by.epam.dragon.treasures.dao.TreasureDAO;
+import by.epam.dragon.treasures.dao.config_loader.PropertiesLoader;
 import by.epam.dragon.treasures.dao.exception.DAOException;
 import by.epam.dragon.treasures.dao.parser.stax.TreasuresStaxParser;
 
-public class XmlStaxDAO implements TreasureDAO {
+public class XmlStaxDAO {
 
-//	private static final String TREASURE_XMLFILE_PATH = "resources/Treasures.xml";
-
-	@Override
-	public List<Treasure> getAllTreasuresList() throws DAOException {
+	public static List<Treasure> getAllTreasuresList() throws DAOException {
 
 		try {
-			return TreasuresStaxParser.getTreasures(TREASURE_XMLFILE_PATH);
+			return TreasuresStaxParser.getTreasures(PropertiesLoader.TREASURE_XMLFILE_PATH);
 		} catch (FileNotFoundException | XMLStreamException e) {
 			e.printStackTrace();
 			throw new DAOException("DAO exception from StAX 'getAllTreasuresList()'");
